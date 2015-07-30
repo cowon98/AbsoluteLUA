@@ -4,21 +4,19 @@
            29 - 07 - 2015
 ]]
 
-pcall( require, GetObjectName(GetMyHero()) )
-
 Menu = scriptConfig("AbsoluteK", "Absolute Kassadin")
     Menu.addParam("HQ", "Use E in Harrass", SCRIPT_PARAM_ONOFF, true)
     Menu.addParam("HE", "Use E in Harrass", SCRIPT_PARAM_ONOFF, true)
     Menu.addParam("Skill", "Use Skill to LastHit", SCRIPT_PARAM_ONOFF, true)
     Menu.addParam("FQ", "Use Q to LastHit", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("FW", "Use W to LastHit", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("Q", "Use Q in Combo", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("W", "Use W in Combo", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("E", "Use E in Combo", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("R", "Use R in Combo", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("Harrass", "Harrass", SCRIPT_PARAM_KEYDOWN, string.byte("V"), false)
-	Menu.addParam("THarrass", "Toggle Harrass", SCRIPT_PARAM_ONOFF, true)
-	Menu.addParam("Combo", "Combo", SCRIPT_PARAM_KEYDOWN, string.byte(" "))
+    Menu.addParam("FW", "Use W to LastHit", SCRIPT_PARAM_ONOFF, true)
+    Menu.addParam("Q", "Use Q in Combo", SCRIPT_PARAM_ONOFF, true)
+    Menu.addParam("W", "Use W in Combo", SCRIPT_PARAM_ONOFF, true)
+    Menu.addParam("E", "Use E in Combo", SCRIPT_PARAM_ONOFF, true)
+    Menu.addParam("R", "Use R in Combo", SCRIPT_PARAM_ONOFF, true)
+    Menu.addParam("Harrass", "Harrass", SCRIPT_PARAM_KEYDOWN, string.byte("V"), false)
+    Menu.addParam("THarrass", "Toggle Harrass", SCRIPT_PARAM_ONOFF, true)
+    Menu.addParam("Combo", "Combo", SCRIPT_PARAM_KEYDOWN, string.byte(" "))
 
 PrintChat("<font color='#C1073F'>Absolute</font> <font color='#C5C4E6'>Kassadin</font> <font color='#525162'>:</font> <font color='#ECE6FE'>loaded.</font>")
 
