@@ -59,12 +59,13 @@ end
 
 end)
 
-function combo()
 local qrange=600
 local wrange=625
 local erange=1040
 local rrange=700
 local target=GetCurentTarget(900, DAMAGE_MAGIC)
+
+function combo()
 
 if ValidTarget(target,1200) then
   if GetDistance(myHero(), target)<540 and CanUseSpell(myHero,_E) == READY  then
